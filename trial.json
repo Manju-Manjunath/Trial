@@ -1,2 +1,20 @@
 {
+  "P100":{
+    "NAG3M":{
+      "FTB": "0",
+      "Fault Condition": "*Manipulate DC Sensor range threshold upper limit to a lower value* \nintern: \nsig1=205| \nsig2=1",
+      "Debounce Time": "5",
+      "Healing Condition": "*Manipulate DC Sensor range to default value* \nintern: \nSig1= 1600| \nSig2=0",
+      "Healing Time": "5",
+      "Drive Cycle": "4"
+    },
+    "eDCT":{
+      "FTB": "0",
+      "Fault Condition": "*Manipulate DC Sensor range threshold upper limit to a lower value* \nintern: \nsig1=205| \nsig2=1",
+      "Debounce Time": "5",
+      "Healing Condition": "*Manipulate DC Sensor range to default value* \nintern: \nSig1= 1600| \nSig2=0",
+      "Healing Time": "3",
+      "Drive Cycle": "2"
+    }
+  }
 }
